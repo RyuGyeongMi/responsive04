@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #544435;
+    --point-color: #ff6d00;
+    --w-color: #ffffff;
+    --b-color: #4f4f4f;
+
+    --inner-size: 129rem;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #4f4f4f;
+}
+
+.inner {
+    max-width: var(--inner-size);
+    margin: 0 auto;
+}
+
+.default {
+    padding: 8rem 0;
+}
+
+.default .title {
+    max-width: var(--inner-size);
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.default .title h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.default .title .desc {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1.6rem;
+    text-align: center;
+}
+
+.btn_default {
+    display: inline-block;
+    padding: 1.6rem 2.4rem;
+    background: #418613;
+    color: var(--w-color);
+    border-radius: 8px;
+}
+
+.mb8 {
+    margin-bottom: 0.8rem;
+}
+
+.mb16 {
+    margin-bottom: 1.6rem;
+}
+
+.mb24 {
+    margin-bottom: 2.4rem;
+}
+
+.mb32 {
+    margin-bottom: 3.2rem;
+}
+
+.mb40 {
+    margin-bottom: 4rem;
+}
+
+.mt8 {
+    margin-top: 0.8rem;
+}
+
+.mt16 {
+    margin-top: 1.6rem;
+}
+
+.mt24 {
+    margin-top: 2.4rem;
+}
+
+.mt32 {
+    margin-top: 3.2rem;
+}
+
+.mt40 {
+    margin-top: 4rem;
+}
